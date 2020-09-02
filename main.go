@@ -127,9 +127,10 @@ func main() {
 	mnist := flag.String("mnist", "", "Train or predict on mnist set")
 	fileName := flag.String("f", "", "Save/load specified network")
 	hiddenNumbers := flag.Int("h", 200, "Specify number of hidden nodes")
-	learningRate := flag.Float64("r", 0.1, "Specify number of hidden nodes")
+	learningRate := flag.Float64("r", 0.1, "Specify number for learning rate")
 	rounds := flag.Int("i", 1, "Specify rounds to train")
 	flag.Parse()
+
 	net := CreateNet(784, *hiddenNumbers, 10, *learningRate)
 	switch *mnist {
 	case "train":
