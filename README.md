@@ -20,7 +20,6 @@ Number-Recognition-MLP.exe -mnist predict
 For more Arguments, add the flag `-h`
 ```
 Number-Recognition-MLP.exe -h
-
 ```
 ## References
 * [Golang Docs](https://golang.org/doc/)
