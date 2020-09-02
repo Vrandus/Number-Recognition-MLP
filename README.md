@@ -1,1 +1,2 @@
-# mnist
+# Number Recognition MLP
+
